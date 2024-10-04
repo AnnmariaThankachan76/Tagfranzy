@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1><i>Login Page</i></h1>
+    <form action="/action.php">
+    <p>Enter your username</p>
+    <input type="text" placeholder="type your username">
+    <p>Enter your password</p>
+    <input type="password" placeholder="type password">
+    <br>
+    <br>
+    <p><b><i>Enter your class</i></b></p>
+    <label for="1">
+        <input type="radio" value="class 11" name="student" id="1">class 11
+    </label>
+    <label for="2">
+        <input type="radio" value="class 12" name="student" id="1">class 12
+    </label>
+    <BR>
+        <br>
+        <P><b><i>Choose the subject you find interest in</i>
+            <br>                                 </P>
+    <label for="maths">
+        <input type="checkbox" value="maths" name="subject" id="1001">Mathematics
+        <br>
+    </label>
+    <label for="physics">
+        <input type="checkbox" value="physics"  name="subject" id="1002">Physics
+    </label>
+    <br>
+    <label for="chemistry">
+        <input type="checkbox" value="chemistry" name="subject" id="1001">Chemistry
+    </label>
+    <br>
+    <label for="Biology">
+        <input type="checkbox" value="Biology" 
+        name="subject" id="1001">Biology
+    </label>
+    <br>
+    <br>
+    <p><i>Choose at least 3 centres</i></p>
+    <label for="123">
+        <input type="checkbox" checked name="Delhi">Delhi
+        <br>
+        <input type="checkbox" name="Jaipur">Jaipur
+        <br>
+        <input type="checkbox" name="hydrabad">Hyderabad
+        <br>
+        <input type="checkbox" name="chennai">Chennai
+        <br>
+        <input type="checkbox" name="kolkata" disabled >kolkata
+    </label>
+    <br>
+   <P><i>Choose your department</i></P>
+    <select name="department">
+        <option value="CE">CE</option>
+        <option value="ME">ME</option>
+        <option value="CSE">CSE</option>
+        <option value="EC">EC</option>
+    </select>
+    <BR>
+    <p><i>Enter your feedback here</i></p>
+    <textarea name="Feedback" id="1007" placeholder="Enter your feedbaack here" rows="4" columns="3"></textarea>
+   <br>
+   <br>
+   <input type="submit" value="submit">
+</form>
+</body>
+</html>
