@@ -1,0 +1,23 @@
+body{
+    background-color:#cdb4db;
+}
+h2{
+    color:#bde0fe ;
+}
+p{
+    background-color:#ffafcc;
+    color: black;
+}
+button{
+    color: brown;
+    background-color: azure;
+}
+#para4{
+    color:black ;
+}
+.knows{
+    color: aliceblue;
+}
+#box{
+    color: black;
+}
