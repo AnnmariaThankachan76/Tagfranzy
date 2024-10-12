@@ -1,0 +1,27 @@
+#para1{
+    background-color: beige;
+    display: inline;
+}
+button{
+    display:block;
+}
+#Box1{
+    background-color:#e4c1f9 ;
+}
+#Box2{
+    background-color:#a9def9;
+}
+#Box3{
+    background-color:#d0f4de;
+}
+#Box22{
+    background-color:#fcf6bd;
+    display: none;
+}
+.boxtype{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}

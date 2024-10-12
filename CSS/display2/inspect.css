@@ -1,0 +1,33 @@
+#div1{
+    height: 100px;
+    background-color: aquamarine;
+    width: 200px;
+    border-radius: 50%;
+}
+h2{
+    width: 1000px;
+    height: 90px;
+    background-color:#caf0f8 ;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#para2{
+    border-color: #d6dcac;
+    border-style:outset;
+    border-width: 10px;
+    background-color: #faedcd;
+}
+#para1{
+    background-color:#ffd6ff;
+    padding-bottom: 3%;
+  padding-top: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#div2{
+    height: 42px;
+  width: 1111px;
+  background-color: #cce3de;
+  border-radius: 90%;
+}
+
