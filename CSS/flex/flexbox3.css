@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+#box1{
+    background-color:#231942 ;
+}
+#box2{
+    background-color:#5e548e;
+    align-self: flex-end;
+}
+#box3{
+    background-color:#9f86c0 ;
+    flex-grow: 3;
+}
+#box4{
+    background-color:#be95c4;
+    align-self: flex-end;
+
+}
+#box5{
+    background-color:#e0b1cb;
+    flex-shrink:7;
+}

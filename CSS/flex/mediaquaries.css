@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-color: burlywood;
+}
+@media(width:600){
+    div{
+        background-color: bisque;
+    }
+}
+@media(min-width:600){
+    div{
+        background-color: brown;
+    }
+}
+@media(min-widh:300px)and (max-widh:300px){
+    div{
+        background-color: black;
+    }
+}

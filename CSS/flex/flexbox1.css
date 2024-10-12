@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+}
+#box1{
+    background-color:#231942 ;
+}
+#box2{
+    background-color:#5e548e;
+    height: 200px;
+}
+#box3{
+    height: 75px;
+    background-color:#9f86c0 ;
+}
+#box4{
+    background-color:#be95c4;
+}
+#box5{
+    background-color:#e0b1cb;
+    align-self:flex-start;
+}

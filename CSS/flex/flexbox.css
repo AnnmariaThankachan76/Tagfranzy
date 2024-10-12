@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    justify-content:space-around;
+}
+#box1{
+    background-color:#231942 ;
+}
+#box2{
+    background-color:#5e548e;
+}
+#box3{
+    background-color:#9f86c0 ;
+}
+#box4{
+    background-color:#be95c4;
+}
+#box5{
+    background-color:#e0b1cb;
+}
