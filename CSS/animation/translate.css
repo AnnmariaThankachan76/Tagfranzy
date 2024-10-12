@@ -1,0 +1,28 @@
+div{
+    height: 300px;
+    width: 300px ;
+    background-color: bisque;
+    border: 2px solid black;
+     position: fixed;
+    top: 100px;
+    right: 300px;
+    transition-duration: 3s;
+    }
+  div:hover{
+    transform: translate(20px,40px);
+  }  
+  span{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border: 2px solid black;
+     position: fixed;
+    top: 500px;
+    right: 300px;
+    
+}
+span:hover{
+    transition-duration:5s;
+    transform: skewX(30deg);
+
+}
