@@ -1,0 +1,16 @@
+#box1{
+    height: 100px;
+    background-color: aquamarine;
+    width: 200px;
+    border-color: black;
+    position: fixed;
+}
+#box2{
+    height: 100px;
+    background-color: blueviolet;
+    width: 200px;
+    position: sticky;
+    top: 0px;
+    left: 100px;
+    
+}
