@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="navlogo">
+                <p>LOGO.</p>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#" class="link">Blog</a></li>
+                    <li><a href="#" class="link">Services</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                 </ul>
+            </div> 
+            <div class="nav-button">
+                <button class="btn white-btn" id="loginbtn">Sign In</button>
+                <button class="btn" id="registerbtn">Sign Up</button>
+            </div>
+            <div class="nav-menu-btn">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAATElEQVRIS2NkoDFgpLH5DKMWEAzhAQmi/wSdhV8BiqOx+YDmFlDoAVTtAxIHNPcBzeOA5hbQPIiGvgU0jwOaWzD042DUByghQPPSFABt6AYZfO/+XQAAAABJRU5ErkJggg=="/>
+            </div>
+        </nav>
+    
+<!---------------form box-------------->
+         <div class="form-box">
+            <!----------registration form------->
+            <div class="register-container" id="register">
+                <div class="top">
+                    <span>Have an account?<a href="login1()">Login</a></span>
+                    <header>Sign Up</header>
+                </div>
+
+                <div class="two-forms">
+                    <div class="input-box">
+                         <input type="text" class="input-field" placeholder="Firstname">
+                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABq0lEQVRIS8WUSytFURTH7yUmiiIDQz4BMWSCMGMgSZmYKQxEBsL1mhCKyDeQgTwmHsXEUMjYXMpj4DFRHr//bR+x3X3Pvqdudv3a5+y91vqvfc7aKx7L8ohnOX7MV6CdRHqh3iR0zLwK22EJ+gjME2TIESjB+mQ6kTCBDpw3TYBp5jXz3Mc8ap6bmY9cImECFzhWwSAsWUEkMAOH0BJV4B3HHCiFeytIGe838AglUQVecCwABbt1CDyzXhhV4BTHWhiBOSvIGO9ToIpqjCrQiuOOcZ5lXoZ8GIBhs67vr/+QcoT9ZDkp8yCYHSTVyX7Z+AjIQRdNWdcZ7z3mddh3ZR6s+wqExXHupxNQaeoGV0Ml2KX4wNolnMEi2GWcFHUJdLO3AkWeqesu9MCubZ9KoB8jVYvGFqg9nDiEGlhX22gz+13MGz9tbYEKNq9Bt1efZ8HzBBPYJeAVyuEu8LMFlK3ashpcp2fwwOyABzW+cVBjTA5bQL1FbUE/9SpDgSbsdeHOocYl8MZGHuTCR4YCxdirsp7guzjsE3w6Tuar9cf/Xy+ab9Zp7bJ+gi/6JkIZDU5ivAAAAABJRU5ErkJggg=="/>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Lastname"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABq0lEQVRIS8WUSytFURTH7yUmiiIDQz4BMWSCMGMgSZmYKQxEBsL1mhCKyDeQgTwmHsXEUMjYXMpj4DFRHr//bR+x3X3Pvqdudv3a5+y91vqvfc7aKx7L8ohnOX7MV6CdRHqh3iR0zLwK22EJ+gjME2TIESjB+mQ6kTCBDpw3TYBp5jXz3Mc8ap6bmY9cImECFzhWwSAsWUEkMAOH0BJV4B3HHCiFeytIGe838AglUQVecCwABbt1CDyzXhhV4BTHWhiBOSvIGO9ToIpqjCrQiuOOcZ5lXoZ8GIBhs67vr/+QcoT9ZDkp8yCYHSTVyX7Z+AjIQRdNWdcZ7z3mddh3ZR6s+wqExXHupxNQaeoGV0Ml2KX4wNolnMEi2GWcFHUJdLO3AkWeqesu9MCubZ9KoB8jVYvGFqg9nDiEGlhX22gz+13MGz9tbYEKNq9Bt1efZ8HzBBPYJeAVyuEu8LMFlK3ashpcp2fwwOyABzW+cVBjTA5bQL1FbUE/9SpDgSbsdeHOocYl8MZGHuTCR4YCxdirsp7guzjsE3w6Tuar9cf/Xy+ab9Zp7bJ+gi/6JkIZDU5ivAAAAABJRU5ErkJggg=="/>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Email">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABWUlEQVRIS2NkoDFgpLH5DMPLAn9gcHUAsQaFwXYdqL8EiLeBzEEOoidAvjSFhsO03wMylNEt+A+V1QTSN8i0COR7kA/gZiP7AGbBV6BsHBCvI9GSIKD6RUDMTcgCmLk9QEYFEP8lYBEzNO5A4Y4MwI7H5oNEoPgMIGYH4sNAHAzEr3FYIgoUXwvEtkD8E4gzgHg+IR+ALNUF4i1ALAfEz4EY5P0TaJZYAPmgYJQE4kdA7APEl4EYFtQ4fQDzFT9Q8RogdgHi30BcCMRToZZkA+l+IGYF4j1AHALEH6FyRFsAUg+yrAGI66CaF0PpWCgNkmtCcjVImCQLYKEC8gXINyBfgQDItSBXg1yPDsiyAGSIIhCvB+J/QAyKkwdYDCfbBzjMwipMtg+ItWTgLHgIdCIo3VMDgOIHFGcoORlUXHcCsTqFNlwC6q8EYozimkJzsWsfXlUmTYIIAGqEQhnOLhV/AAAAAElFTkSuQmCC"/>
+                    </div> 
+                    
+                    <div class="input-box">
+                        <input type="password" class="input-field" placeholder="Password">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABKUlEQVRIS2NkoDFgpLH5DMRaEAJ0SCYQO0EdtBdITwXi9YQcSIwF3UBDSnAY1AAUb8RnCSELwoCaV0INaAbS06DsHCBdDWW7A+lduCwhZME5oEZDIC4C4n40Q0AWtADxTiD2INeCv0CNTEAsCsRv0AyRBPKfAfE7IBYm14L/UI24fEpInmAqImQAIXmsFvgDXd0BxBr4UgcWuetAMVBq24Ysh83rT4AKpEk0HKb8HpChTMgCgt7GYTlWfdh8MHwtgEU+yIcYkQkUoziIXgANEYeGP0ZkUsMCkKGKUAvuAmkVtMim2AduQANB5Q4IuAAxqMhGBhRbADIMXwobPBY8BLpUjsyc/AApnsBGYMtooOTYCcTqJFpyCai+EogJlkUkmotfOaEajWLLAAsWPBkeDYitAAAAAElFTkSuQmCC"/> 
+                    </div>  
+                    <div class="input-box">
+                        <input type="submit" class="submit" value="Register">
+                    </div>
+                <!--</div>-->
+                    <div class="two-col">
+                        <div class="one">
+                            <input type="checkbox" id="register-check">
+                            <label for="register-check">Remember Me</label>
+                        </div>
+                        <div class="two">
+                            <label><a href="#">Terms & Condition</a></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+    </div>
+</body>
+</html>
