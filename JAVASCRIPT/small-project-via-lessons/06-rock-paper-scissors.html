@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rock-paper-scissors</title>
+</head>
+<body>
+
+  <!--Alorithm-
+
+  when we click a button
+  1.computer randomly selects a move
+  2.compare the moves to get result
+  3.display the result in a popup
+  
+  random generates between 0 -1
+  if btwn   0 and 1/3 =>rock 
+  if btwn 1/3 and 2/3 =>paper
+  if btwn 2/3 and 1    =>scissors-->
+
+
+    <p>
+      Rock-Paper-Scissors
+    </p>
+
+    <button
+    onclick="
+
+    //scope of computerMove is made global in this
+    //let is used, as value changes
+    //if statements check the value for algo.1
+
+      let  computerMove='';
+
+      const randomNumber=Math.random();
+      if(randomNumber>=0 && randomNumber<1/3){
+        computerMove='rock';
+      }
+      else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+        computerMove='paper';
+      } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+        computerMove= 'scissors';
+      }
+      //show in console
+      console.log(computerMove);
+      //algo.2
+      //compring result 
+      //=== is used for checking 
+      let result='';
+      if(computerMove=== 'rock'){
+        result='tie';
+      }
+      else if(computerMove=== 'paper'){
+        result='you loose';
+      }
+      else if(computerMove=== 'scissors'){
+        result='you win';
+      }
+
+      //dispalying the result algo.3
+      alert(`You picked rock. Computer picked ${computerMove}. ${result}.`);
+
+      ">Rock</button>
+
+
+
+
+    <button
+    onclick="
+      let  computerMove='';
+
+      const randomNumber=Math.random();
+      if(randomNumber>=0 && randomNumber<1/3){
+            computerMove='rock';
+        }
+      else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+          computerMove='paper';
+        } 
+      else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+          computerMove= 'scissors';
+        }
+        console.log(computerMove);
+      //algo.2
+      //compring result 
+      //=== is used for checking 
+      let result='';
+      if(computerMove=== 'rock'){
+        result='you win';
+      }
+      else if(computerMove=== 'paper'){
+        result='tie';
+      }
+      else if(computerMove=== 'scissors'){
+        result='you loose';
+      }
+      //dispalying the result algo.3
+      alert(`You picked paper. Computer picked ${computerMove}. ${result}.`);
+
+      ">Paper</button>
+
+
+
+
+    <button
+    onclick="
+    let  computerMove='';
+
+const randomNumber=Math.random();
+if(randomNumber>=0 && randomNumber<1/3){
+      computerMove='rock';
+  }
+else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+    computerMove='paper';
+  } 
+else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+    computerMove= 'scissors';
+  }
+  console.log(computerMove);
+//algo.2
+//compring result 
+//=== is used for checking 
+let result='';
+      if(computerMove=== 'rock'){
+        result='you loose';
+      }
+      else if(computerMove=== 'paper'){
+        result='you win';
+      }
+      else if(computerMove=== 'scissors'){
+        result='tie';
+      }
+      //dispalying the result algo.3
+      alert(`You picked scissors. Computer picked ${computerMove}. ${result}.`);
+">Scissors</button>
+
+
+
+    <scrpt>
+
+    </scrpt>
+</body>
+</html>
