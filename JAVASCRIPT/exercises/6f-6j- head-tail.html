@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Head-tail</title>
+</head>
+<body>
+<!--3.34.01-->
+<p>Choose heads or tails</p>
+<p>see what computer chooses</p>
+    <button onclick="
+
+    let result='';
+    let computerMove=Math.random();
+    if(computerMove <0.5)
+      {
+        result='Heads';
+      }
+      else{
+        result='Tails';
+      }
+      console.log(result);
+    
+    const guess='Heads';
+    if(guess===result)
+    {
+      console.log('You win');
+    }
+    else{
+      console.log('You loose');
+    }
+    
+    ">
+      Heads
+    </button>
+
+    <button
+    onclick="
+      let result1='';
+    let computerMove1=Math.random();
+    if(computerMove1 <0.5)
+      {
+        result1='Heads';
+      }
+      else{
+        result1='Tails';
+      }
+      console.log(result1);
+    
+    const guess1='Tails';
+    if(guess1===result1)
+    {
+      console.log('You win');
+    }
+    else{
+      console.log('You loose');
+    }
+    ">Tails</button>
+
+
+</body>
+</html>
